@@ -86,7 +86,7 @@
 </head>
 <body>
 <h2>ITOZE GUSUBIZA IBIBAZO UTSINDIRE PROVISOIRE MU GIHE GITO!</h2>
-<p>IKIZAMI KIMARA IMINOTA 20, BURI KIBAZO GIFITE INOTA 1</p>
+<p>IKIZAMI KIGIZWE N'IBIBAZO 20, BURI KIBAZO GIFITE INOTA 1, KIKAMARA IMINOTA 20. AMAHIRWE MASA!!!</p>
   <button class="custom-button" onclick="promptPassword()">TANGIRA IKIZAMI CYA 2</button>
 
   <div id="quiz-container">
@@ -123,7 +123,7 @@ const questions = [
     correct: 2
   },
   {
-    question: "2. . Nijoro igihe ijuru rikeye, itara ribonesha icyapa kiranga nimero y’ikinyabiziga rigomba gutuma izo nimero zisomerwa nibura mu ntera ikurikira:",
+    question: "2. Nijoro igihe ijuru rikeye, itara ribonesha icyapa kiranga nimero y’ikinyabiziga rigomba gutuma izo nimero zisomerwa nibura mu ntera ikurikira:",
     options: ["a) Metero 150", "b) Metero 50", "c) Metero 20", "d) Metero 10"],
     correct: 2
   },
@@ -240,7 +240,7 @@ const questions = [
     correct: 1
   },
   {
-    question: "14. . Buri modoka yagenewe gutwara abantu, ariko umubare wabo ntarengwa ukaba munsi ya 6 umuyobozi abariwemo igomba kugira imikandara yo kurinda ibyago igenewe aba bakurikira:",
+    question: "14. Buri modoka yagenewe gutwara abantu, ariko umubare wabo ntarengwa ukaba munsi ya 6 umuyobozi abariwemo igomba kugira imikandara yo kurinda ibyago igenewe aba bakurikira:",
     options: [
       "a) Umuyobozi",
       "b) Umugenzi wicaye ku ntebe y’imbere",
@@ -313,14 +313,14 @@ const questions = [
 
     function promptPassword() {
       if (quizStarted) return alert("IKIZAMI CYAMAZE GUTANGIRA!");
-      const input = prompt("NYANDIKIRA KURI WHATSAPP 0785677190 CG UMPAMAGARE NGUHE CODE IKWEMERERA GUKORA IKIZAMI!:");
+      const input = prompt("TWANDIKIRE KURI WHATSAPP 0785677190 CG UDUHAMAGARE TUGUHE KODE IKWEMERERA GUKORA IKI IKIZAMI!:");
       if (input === password) {
         document.getElementById("quiz-container").style.display = "block";
         quizStarted = true;
         renderQuestions();
         startTimer();
       } else {
-        alert("CODE WANDITSEMO SI YO!");
+        alert("SHYIRAMO KODE YA NYAYO CG UTWANDIKIRE KURI 0785677190 TUGUFASHE!");
       }
     }
 
@@ -393,7 +393,7 @@ const questions = [
 }
 
  function goToHome() {
-   window.location.href = "https://mwarimudamas.wixsite.com/mwarimudamas25-1#quizzes";
+   window.location.href = "https://mwarimudamas.wixsite.com/mwarimudamas#quizzes";
     }
   </script>
 </body>
